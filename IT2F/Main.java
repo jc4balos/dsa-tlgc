@@ -1,4 +1,6 @@
-  String[] names = new String[10];
+public class Main {
+    public static void main(String[] args) {
+        String[] names = new String[10];
         int[] ages = { 23, 42, 22, 33, 41 };
 
         System.out.println(ages[2]);
@@ -9,3 +11,5 @@
         for (int i = 0; i <= 9; i++) {
             System.out.println(names[i]);
         }
+    }
+}
