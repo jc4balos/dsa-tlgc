@@ -11,5 +11,11 @@ public class Main {
         for (int i = 0; i <= 9; i++) {
             System.out.println(names[i]);
         }
+
+        print("Hello World");
+    }
+
+    static void print(String x) {
+        System.out.print(x);
     }
 }
