@@ -1,5 +1,3 @@
-package IT2C;
-
 public class Main {
     public static void main(String[] args) {
         // int age = 20;
@@ -31,6 +29,21 @@ public class Main {
 
         String[] names = { "Helicopter", "Joel", "Parrot", "Penguin", "Buknoy", "Moana", "Tado" };
         System.out.println(names[0]);
+
+        int x = 3;
+
+        String color = "red";
+        if (color == "red") {
+            System.out.print("Staph");
+        } else if (color == "green") {
+            System.out.print("GOOOOOOOOOOOOOOOO");
+
+        } else if (color == "yellow") {
+            System.out.print("Ready to stop");
+        } else {
+            System.out.print("Impound ang motor");
+        }
+
     }
 
 }

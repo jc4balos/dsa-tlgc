@@ -1,7 +1,12 @@
 age = [23,24,25,26]
+print(age.pop()) #removes last element
+print(age)
+
+
 numbers = [1,2,3,4,5,age]
 names = ["Roshell","Arabella","Vina1","Vina2"]
-
+names.append("Vina3")
+print (names)
 # index = names.index("Vina")
 names.insert(2,"Joyce")
 names.remove("Vina2")
