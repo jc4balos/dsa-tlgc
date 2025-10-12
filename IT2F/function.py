@@ -16,6 +16,8 @@ def loop(n):
         print(i)
         i+=1
 
+loop(7)
+
 def quadratic_loop(n):
     i = 1
     while i <= n:
@@ -26,4 +28,3 @@ def quadratic_loop(n):
         print("Outer Loop", i)
         i+=1
 
-quadratic_loop(1000) 
