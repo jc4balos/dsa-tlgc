@@ -1,4 +1,11 @@
 names = ["Anatong","Pigsa", "Balong", "Pigsa"]
+
+names.append("Bulutong")
+print(names)
+
+# get the length of the list
+print(len(names))
+
 #delete item in list
 
 names.pop(0)
