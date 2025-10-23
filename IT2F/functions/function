@@ -1,0 +1,15 @@
+#calling another function
+# inside a function
+
+def start(color):
+    print("The",color,"car is starting")
+    
+def drive(color):
+    start(setcolor(color))
+    print("broom broom")
+
+def setcolor(input_color):
+    return input_color
+
+drive("red")
+
