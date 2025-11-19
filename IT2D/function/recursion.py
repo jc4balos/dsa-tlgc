@@ -5,4 +5,9 @@ def countdown(n):
     print(n)
     countdown(n - 1)
 
-countdown(5)
+def countdown2(n):
+  print(n)
+  countdown2(n - 1)
+
+countdown2(5)
+

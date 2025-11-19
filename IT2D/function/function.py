@@ -7,4 +7,4 @@ def fibo(n):
         i+=1
     print(list)
 
-fibo(1)
+fibo(10)
